@@ -1,2 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+h1{
+	margin: 0 auto;
+	width: 10px
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f4f4f4;
+	padding: 20px;
+	margin: 0;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 400px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 15px
+}
+label {
+	font-size: 14px;
+	font-weight: 400px
+}
+input {
+	padding: 10px;
+	margin: 0px 20px 0px 4px;
+    border-radius: 5px;
+	outline: 0;
+	border: 1px solid #ccc;
+	gap: 20px;
+	
+}
